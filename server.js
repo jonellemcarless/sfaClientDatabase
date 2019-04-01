@@ -6,7 +6,7 @@ const path = require("path")
 
 const users = require("./routes/users");
 
-// process.env.port is Heroku's port
+// process.env.PORT is Heroku's port
 const PORT = process.env.PORT || 5000; 
 
 // Initialize Express
