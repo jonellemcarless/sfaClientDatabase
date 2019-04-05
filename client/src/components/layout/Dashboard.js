@@ -1,3 +1,5 @@
+// This will be the first page you see when you select a client
+// Information will be imported from MongoDB
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
@@ -15,7 +17,7 @@ class Dashboard extends Component {
 render() {
     const { user } = this.props.auth;
 return (
-      <div style={{ height: "75vh" }} className="container valign-wrapper">
+      <div style={{ height: "75vh" }} className="container">
           <div className="col s12 center-align">   
             <h4>
               <b>Hey there,</b> {user.name.split(" ")[0]}

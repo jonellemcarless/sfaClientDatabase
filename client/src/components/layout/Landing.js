@@ -2,9 +2,10 @@ import React, { Component } from "react";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ height: "75vh" }} className="container valign-wrapper">
+      // <div style={{ height: "75vh" }} className="container valign-wrapper">
         <div className="row">
-          <div className="col s12 center-align">
+        <h1>Landing</h1>
+          {/* <div className="col s12 center-align">
             <h4>
               <b>Join</b> us today!{" "}
               <span style={{ fontFamily: "Simplifica" }}>naturalBeauty</span> you can trust.
@@ -35,9 +36,9 @@ class Landing extends Component {
               href="/login" onClick={this.handleClick}>
               Log In
             </a>
-          </div>
+          </div> */}
         </div>
-      </div>
+      // </div>
     );
   }
 }
